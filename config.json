@@ -1,0 +1,26 @@
+{
+  "profile": {
+    "name": "知行旅人",
+    "title": "全栈开发者 · 产品创作者 · AI 探索者",
+    "avatar": "",
+    "bio": "专注 AI 工具链与开发者体验。\n相信技术应服务于创意，代码是思想的延伸。",
+    "links": {
+      "github": "https://github.com/zhixinglvren",
+      "blog": "https://coolenjoy.space",
+      "email": ""
+    }
+  },
+  "categories": [
+    { "id": "miniapp", "name": "小程序", "icon": "📱" },
+    { "id": "website", "name": "网站", "icon": "🌐" },
+    { "id": "skillkit", "name": "技能套件", "icon": "🛠️" },
+    { "id": "ai-agent", "name": "AI Agent", "icon": "🤖" },
+    { "id": "other", "name": "其他", "icon": "📦" }
+  ],
+  "works": [],
+  "theme": {
+    "primaryColor": "#00d4ff",
+    "accentColor": "#7c3aed",
+    "bgColor": "#0a0a1a"
+  }
+}

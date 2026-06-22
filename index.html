@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>知行旅人 · 创意实验室</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐈</text></svg>">
+</head>
+<body>
+  <!-- 粒子画布 -->
+  <canvas id="particles"></canvas>
+
+  <!-- 导航栏 -->
+  <nav class="glass-nav">
+    <div class="nav-inner">
+      <span class="nav-logo">🐈 知行旅人</span>
+      <div class="nav-links">
+        <a href="#hero">首页</a>
+        <a href="#works">作品集</a>
+        <a href="#about">关于</a>
+        <button id="themeToggle" class="icon-btn" title="切换主题">🌓</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <div class="avatar-ring">
+        <div class="avatar-fallback">🐈</div>
+      </div>
+      <h1 class="hero-name glitch-text" data-text="知行旅人">知行旅人</h1>
+      <p class="hero-title"></p>
+      <p class="hero-bio"></p>
+      <div class="hero-links"></div>
+    </div>
+    <div class="scroll-hint">
+      <span>探索作品</span>
+      <div class="scroll-arrow">⌄</div>
+    </div>
+  </section>
+
+  <!-- 作品集 -->
+  <section id="works" class="works-section">
+    <h2 class="section-title">✨ 作品集</h2>
+    <div class="filter-bar">
+      <button class="filter-btn active" data-cat="all">全部</button>
+    </div>
+    <div class="works-grid" id="worksGrid"></div>
+    <div class="empty-state" id="emptyState" style="display:none;">
+      <div class="empty-icon">📭</div>
+      <p>暂无作品展示</p>
+      <p class="empty-hint">编辑 config.json 添加你的第一个作品</p>
+    </div>
+  </section>
+
+  <!-- 关于 -->
+  <section id="about" class="about-section">
+    <h2 class="section-title">💡 关于</h2>
+    <div class="about-card glass-card">
+      <p>这里是 <strong>知行旅人 · 创意实验室</strong>。</p>
+      <p>我建造工具、探索 AI 边界、打磨产品体验。</p>
+      <p>每一个作品都是对「技术如何更好地服务创造者」的一次回答。</p>
+      <p class="about-tagline">知是行之始，行是知之成。</p>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer>
+    <p>© 2026 知行旅人 · 创意实验室 &nbsp;|&nbsp; Powered by GitHub Pages</p>
+  </footer>
+
+  <!-- 作品详情弹窗 -->
+  <div class="modal-overlay" id="modal">
+    <div class="modal glass-card">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div class="modal-body">
+        <img class="modal-image" id="modalImage" src="" alt="">
+        <div class="modal-info">
+          <span class="modal-category" id="modalCat"></span>
+          <h2 id="modalTitle"></h2>
+          <p id="modalDesc"></p>
+          <div class="modal-tags" id="modalTags"></div>
+          <div class="modal-actions" id="modalActions"></div>
+        </div>
+        <div class="modal-qr" id="modalQR" style="display:none;">
+          <h3>📱 扫码体验</h3>
+          <img id="modalQRImg" src="" alt="QR Code">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
