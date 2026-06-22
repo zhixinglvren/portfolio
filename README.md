@@ -1,4 +1,4 @@
-# Portfolio — 知行旅人 · 创意实验室
+# Portfolio — 知行旅人 · 作品集
 
 个人作品集展示页，纯静态，通过 `config.json` 配置。
 

@@ -3,10 +3,10 @@
     "name": "知行旅人",
     "title": "全栈开发者 · 产品创作者 · AI 探索者",
     "avatar": "",
-    "bio": "专注 AI 工具链与开发者体验。\n相信技术应服务于创意，代码是思想的延伸。",
+    "bio": "建造工具、打磨产品、探索 AI 边界。\n每一个作品都是对「技术如何更好地服务创造者」的一次回答。",
     "links": {
       "github": "https://github.com/zhixinglvren",
-      "blog": "https://coolenjoy.space",
+      "blog": "https://zhixinglvren.github.io/myblog/",
       "email": ""
     }
   },
@@ -17,7 +17,19 @@
     { "id": "ai-agent", "name": "AI Agent", "icon": "🤖" },
     { "id": "other", "name": "其他", "icon": "📦" }
   ],
-  "works": [],
+  "works": [
+    {
+      "id": "creative-lab",
+      "title": "创意实验室",
+      "description": "创意点子展示平台，卡片式布局，支持搜索筛选、标签、暗色主题。每日自动推送创意灵感。",
+      "category": "website",
+      "tags": ["创意", "展示", "静态站点", "自动化"],
+      "image": "",
+      "qrcode": "",
+      "link": "https://zhixinglvren.github.io/creative-ideas",
+      "featured": true
+    }
+  ],
   "theme": {
     "primaryColor": "#00d4ff",
     "accentColor": "#7c3aed",
