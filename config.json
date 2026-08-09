@@ -34,7 +34,7 @@
       "id": "desktop-aipet",
       "title": "桌面AI助理",
       "description": "Windows 桌面悬浮机器人宠物，系统托盘常驻，实时监控本地 AI 工具健康状态（Nanobot Gateway 等），支持拖拽、右键菜单、异常告警、弹窗日志。",
-      "category": "ai-agent",
+      "category": "skillkit",
       "tags": ["Python", "tkinter", "桌面宠物", "系统监控", "pystray"],
       "link": "https://github.com/zhixinglvren/desktop-aipet"
     },
