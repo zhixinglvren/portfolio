@@ -16,7 +16,6 @@
     { "id": "skillkit", "name": "小工具", "icon": "🔧" },
     { "id": "ai-agent", "name": "AI Agent", "icon": "🤖" },
     { "id": "knowledge", "name": "知识图谱", "icon": "🧠" },
-    { "id": "blog", "name": "博客", "icon": "📝" },
     { "id": "other", "name": "其他", "icon": "📦" }
   ],
   "works": [
@@ -46,14 +45,6 @@
       "category": "knowledge",
       "tags": ["金融", "知识图谱", "SVG", "可视化", "CSS动画"],
       "link": "https://zhixinglvren.github.io/industry-knowledge-graph"
-    },
-    {
-      "id": "myblog",
-      "title": "个人博客",
-      "description": "VuePress 1.x 技术博客，~130 篇 Markdown 文章，暗色主题 + 结构化侧边栏，GitHub Actions 自动部署。",
-      "category": "blog",
-      "tags": ["VuePress", "博客", "Markdown", "GitHub Actions"],
-      "link": "https://zhixinglvren.github.io/myblog"
     },
     {
       "id": "haifong",

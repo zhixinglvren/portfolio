@@ -28,7 +28,6 @@ const PROJECT_ICONS = {
   'creative-lab': '💡',
   'desktop-aipet': '🤖',
   'industry-knowledge-graph': '🧠',
-  'myblog': '📝',
   'haifong': '📷',
   'api-tester': '🔧',
   'chrome-memory-monitor': '🧩',
