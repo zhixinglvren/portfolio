@@ -58,9 +58,9 @@
       "id": "api-tester",
       "title": "API 测试工具",
       "description": "轻量级 API 接口调试工具，支持 RESTful 请求构造、响应格式化、请求历史记录。",
-      "category": "miniapp",
+      "category": "skillkit",
       "tags": ["API", "调试", "HTTP", "REST"],
-      "link": "https://github.com/zhixinglvren/api-tester"
+      "link": "https://zhixinglvren.github.io/api-tester/"
     },
     {
       "id": "chrome-memory-monitor",
