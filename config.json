@@ -1,9 +1,9 @@
 {
   "profile": {
     "name": "知行旅人",
-    "title": "全栈开发者 · 产品创作者 · AI 探索者",
+    "title": "产品创作者 · AI 探索者",
     "avatar": "",
-    "bio": "建造工具、打磨产品、探索 AI 边界。\n每一个作品都是对「技术如何更好地服务创造者」的一次回答。",
+    "bio": "建造工具、打磨产品、探索 AI 边界。",
     "links": {
       "github": "https://github.com/zhixinglvren",
       "blog": "https://zhixinglvren.github.io/myblog/",
@@ -50,7 +50,7 @@
       "id": "haifong",
       "title": "海风影像馆",
       "description": "摄影作品展示站，记录旅途光影与生活瞬间。",
-      "category": "website",
+      "category": "miniapp",
       "tags": ["摄影", "展示", "静态站点"],
       "link": "https://github.com/zhixinglvren/haifong"
     },
@@ -58,7 +58,7 @@
       "id": "api-tester",
       "title": "API 测试工具",
       "description": "轻量级 API 接口调试工具，支持 RESTful 请求构造、响应格式化、请求历史记录。",
-      "category": "skillkit",
+      "category": "miniapp",
       "tags": ["API", "调试", "HTTP", "REST"],
       "link": "https://github.com/zhixinglvren/api-tester"
     },
