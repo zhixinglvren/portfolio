@@ -177,9 +177,12 @@ function renderWorks() {
       + '</div>';
   }).join('');
 
-  // Click to open modal
+  // Click to open project directly
   grid.querySelectorAll('.work-card').forEach(card => {
-    card.addEventListener('click', () => openModal(card.dataset.id));
+    card.addEventListener('click', () => {
+      const work = config.works.find(w => w.id === card.dataset.id);
+      if (work && work.link) window.open(work.link, '_blank');
+    });
   });
 
   // Reveal animation
