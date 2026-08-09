@@ -13,8 +13,10 @@
   "categories": [
     { "id": "miniapp", "name": "小程序", "icon": "📱" },
     { "id": "website", "name": "网站", "icon": "🌐" },
-    { "id": "skillkit", "name": "技能套件", "icon": "🛠️" },
+    { "id": "skillkit", "name": "小工具", "icon": "🔧" },
     { "id": "ai-agent", "name": "AI Agent", "icon": "🤖" },
+    { "id": "knowledge", "name": "知识图谱", "icon": "🧠" },
+    { "id": "blog", "name": "博客", "icon": "📝" },
     { "id": "other", "name": "其他", "icon": "📦" }
   ],
   "works": [
@@ -28,6 +30,54 @@
       "qrcode": "",
       "link": "https://zhixinglvren.github.io/creative-ideas",
       "featured": true
+    },
+    {
+      "id": "desktop-aipet",
+      "title": "桌面AI助理",
+      "description": "Windows 桌面悬浮机器人宠物，系统托盘常驻，实时监控本地 AI 工具健康状态（Nanobot Gateway 等），支持拖拽、右键菜单、异常告警、弹窗日志。",
+      "category": "ai-agent",
+      "tags": ["Python", "tkinter", "桌面宠物", "系统监控", "pystray"],
+      "link": "https://github.com/zhixinglvren/desktop-aipet"
+    },
+    {
+      "id": "industry-knowledge-graph",
+      "title": "金融行业知识图谱",
+      "description": "交互式 SVG 可视化，展示金融行业岗位角色与四角制衡关系，CSS 动画连线流动效果，支持岗位视图切换。",
+      "category": "knowledge",
+      "tags": ["金融", "知识图谱", "SVG", "可视化", "CSS动画"],
+      "link": "https://zhixinglvren.github.io/industry-knowledge-graph"
+    },
+    {
+      "id": "myblog",
+      "title": "海风影像馆",
+      "description": "VuePress 1.x 技术博客，~130 篇 Markdown 文章，暗色主题 + 结构化侧边栏，GitHub Actions 自动部署。",
+      "category": "blog",
+      "tags": ["VuePress", "博客", "Markdown", "GitHub Actions"],
+      "link": "https://zhixinglvren.github.io/myblog"
+    },
+    {
+      "id": "api-tester",
+      "title": "API 测试工具",
+      "description": "轻量级 API 接口调试工具，支持 RESTful 请求构造、响应格式化、请求历史记录。",
+      "category": "skillkit",
+      "tags": ["API", "调试", "HTTP", "REST"],
+      "link": "https://github.com/zhixinglvren/api-tester"
+    },
+    {
+      "id": "chrome-memory-monitor",
+      "title": "Chrome 内存监控",
+      "description": "Chrome 浏览器扩展，实时监控标签页内存占用，帮助识别内存泄漏和资源大户。",
+      "category": "skillkit",
+      "tags": ["Chrome", "扩展", "内存监控", "性能"],
+      "link": "https://github.com/zhixinglvren/Chrome-Memory-Monitor"
+    },
+    {
+      "id": "ngrok-proxy",
+      "title": "Ngrok 代理服务",
+      "description": "Python HTTP 文件服务器 + Ngrok 隧道，HTTPS 安全加固（HTTP Basic Auth、IP 限流、路径隔离），支持多目录映射。",
+      "category": "skillkit",
+      "tags": ["Python", "Ngrok", "HTTPS", "安全", "隧道"],
+      "link": "https://github.com/zhixinglvren/ngrok-proxy"
     }
   ],
   "theme": {
