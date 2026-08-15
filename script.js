@@ -29,7 +29,7 @@ const PROJECT_ICONS = {
   'desktop-aipet': '🤖',
   'industry-knowledge-graph': '🧠',
   'haifong': '📷',
-  'api-tester': '🔧',
+  'toolbox': '🔧',
   'chrome-memory-monitor': '🧩',
   'ngrok-proxy': '🔐',
 };

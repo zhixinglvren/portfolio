@@ -55,12 +55,12 @@
       "link": "https://github.com/zhixinglvren/haifong"
     },
     {
-      "id": "api-tester",
-      "title": "API 测试工具",
+      "id": "toolbox",
+      "title": "Toolbox",
       "description": "轻量级 API 接口调试工具，支持 RESTful 请求构造、响应格式化、请求历史记录。",
       "category": "skillkit",
       "tags": ["API", "调试", "HTTP", "REST"],
-      "link": "https://zhixinglvren.github.io/api-tester/"
+      "link": "https://zhixinglvren.github.io/toolbox/"
     },
     {
       "id": "chrome-memory-monitor",
